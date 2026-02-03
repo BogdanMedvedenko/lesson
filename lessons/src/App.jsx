@@ -1,14 +1,18 @@
-import Hello from './Hello'
+// Lessons
+//  
+
+// Homeworks
+import Homework_02 from "./homeworks/Homework_02/Homework_02";
 
 function App() {
-  
-
   return (
-   <div>
-    <p>HELLOOOOOOOOO</p>
-    <Hello />
-    </div>
-  )
+    <>
+      {/* LESSONS */}
+      {/* <Lesson_02 /> */}
+      {/* HOMEWORKS */}
+      <Homework_02 />
+    </>
+  );
 }
 
-export default App
+export default App;
