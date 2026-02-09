@@ -1,17 +1,15 @@
-import Card from './components/Card'
+import SimpsonsCard from "../../components/SimpsonsCard/SimpsonsCard";
+
+import "./styles.css";
 
 function Homework_02() {
   return (
-    <div>
-      <h1>Homework 02</h1>
-
-      <div className="cards-container">
-        <Card />
-        <Card />
-        <Card />
-      </div>
+    <div className="homework02_page_wrapper">
+      <SimpsonsCard />
+      <SimpsonsCard />
+      <SimpsonsCard />
     </div>
-  )
+  );
 }
 
-export default Homework_02
+export default Homework_02;
